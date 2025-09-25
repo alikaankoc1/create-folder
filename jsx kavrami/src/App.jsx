@@ -1,16 +1,13 @@
-import "./App.css";
+import React from 'react'
 
 function App() {
-  
-  let isimler = ["ali", "ayşe", "fatma"];
+  let isimler =  ["ali ", "ayşe"];
   return (
     <div>
-      {isimler.map((isim) =>(
-        <div>{isim}</div>
-      
-      ))
-      }
+    {isimler.map((isim) =>(
+      <div style={{textAlign: "center", paddingLeft:"250px"}}>isimler: {isim}</div>
+    ))}
     </div>
   )
 }
-export default App;
+export default App
