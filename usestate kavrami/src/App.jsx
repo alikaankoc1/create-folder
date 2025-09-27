@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 
 function App() {
-  const [firstName , setfirstName] = useState("ali");
-  const [lastName, setlastName] = useState("koc");
+  const [firstName , setfirstName] = useState("Champions");
+  
   return (
-  <div>
-    {firstName} {lastName}
+  <div >
+    <div>
+ {firstName}
+    </div>
+    <div><button onClick={()=>{setfirstName("Konyaspor")}}>Butona Tıkla</button></div>
+   
   </div>
   )
 }
