@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 
 function App() {
-  const [firstName, setfirstName] = useState("ali");
-  const handleChange = () => {
-    setfirstName("afgasdfgasg");
+  const [count, setCount] = useState(0);
+  const summary = () =>{
+    setCount (count+2)
   }
   return (
-    <div>
-      <div>{firstName}</div>
-      <div>
-        <button onClick={handleChange}>butona tıkla</button>
-      </div>
-    </div>
+   <div>
+   <div>
+    {count}
+    <button onClick={summary}> tıkla değer artacak mı ?</button>
+   </div>
+   </div>
   )
 }
 
