@@ -5,8 +5,8 @@ function Product(props) {
     <div>
       <div>ÜRÜN BİLGİLERİ</div>
       <div>
-        <div>Ayakkabı: {props.productName}</div>
-        <div>Fiyat: {props.price} </div>
+        <div>{props.productName}</div>
+        <div> {props.price} </div>
       </div>
     </div>
   )
