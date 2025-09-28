@@ -3,9 +3,10 @@ import Product from './Product'
 
 function App() {
   return (
-   <div>
-    <Product productName = "ayakkabı" price = {5000}/>
-   </div>
+    <div>
+      <Product status = {"güneşli"}/>
+      <Product status = {"yağmurlu"}/>
+    </div>
   )
 }
 
