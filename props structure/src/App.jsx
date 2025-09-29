@@ -4,9 +4,9 @@ import Product from './Product'
 function App() {
   return (
     <div>
-      <Product status = {"güneşli"}
+      <Product status = {"sisli"}
       />
-      <Product status = {"yağmurlu"}/>
+      <Product status = {"kar yağışlı"}/>
     </div>
   )
 }
